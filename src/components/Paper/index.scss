@@ -1,0 +1,23 @@
+.paper {
+  .nav-links {
+    cursor: pointer;
+  }
+  .nav-links .next, .nav-links .prev{
+    opacity: 0;
+    transition: .3s all ease-in-out;
+    margin-top: -1.5em;
+    display: block;
+  }
+  
+  .nav-links:hover .next, .nav-links:hover .prev {
+    opacity: 1;
+    margin-top: 0;
+  }
+  .nav{
+    background-color: red;
+    width:90px;
+    height:90px;
+  }
+}
+
+  
