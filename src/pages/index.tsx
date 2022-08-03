@@ -16,6 +16,15 @@ export default function index() {
           </Link>,
         )}
       </pre>
+      <h1 className="font-mono mb-2 mt-8">
+        <a className="text-gray-400"target="_blank">@Luck358</a>
+        <span className="mx-1">.</span>
+        <a className="text-gray-400" href="https://twitter.com/study_zhu" target="_blank" rel="noreferrer">twitter</a>
+        <span className="mx-1">.</span>
+        <a className="text-gray-400" href="https://github.com/luke358" target="_blank" rel="noreferrer">github</a>
+        <br />
+        <span className="text-gray-300">from 2022/08/02</span>
+      </h1>
     </div>
   )
 }

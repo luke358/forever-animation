@@ -1,6 +1,7 @@
 import React from 'react'
 import type { ReactElement } from 'react'
 import { Link, useLocation } from 'react-router-dom'
+import { Icon } from '@iconify/react'
 import { works } from '../../works'
 import './index.scss'
 
@@ -14,6 +15,11 @@ export default function Paper({ children }: { children: ReactElement }) {
   return (
     <div className="paper">
       {children}
+      {
+        no !== '/' && <nav className="fixed top-6 left-8"><Link to="/">
+          <Icon icon="ant-design:left-outlined" />
+        </Link></nav>
+      }
       {work && <nav className="w-[100%] py-2 px-3 font-mono fixed bottom-0 left-0 flex justify-between">
         <div className="flex">
           <div className="nav-links">
