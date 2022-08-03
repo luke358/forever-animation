@@ -6,7 +6,7 @@ const avaliable_works = works.filter(i => !i.draft)
 
 export default function index() {
   return (
-    <div className="">
+    <div>
       <h1 className="font-bold font-mono mb-4 text-lg">{'forever animate'.toUpperCase()}</h1>
       <pre className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-y-1 gap-x-4">
         {avaliable_works.map(({ no, name }) =>
@@ -22,6 +22,8 @@ export default function index() {
         <a className="text-gray-400" href="https://twitter.com/study_zhu" target="_blank" rel="noreferrer">twitter</a>
         <span className="mx-1">.</span>
         <a className="text-gray-400" href="https://github.com/luke358" target="_blank" rel="noreferrer">github</a>
+        <span className="mx-1">.</span>
+        <a className="text-gray-400" href="https://github.com/luke358/forever-animation" target="_blank" rel="noreferrer">source</a>
         <br />
         <span className="text-gray-300">from 2022/08/02</span>
       </h1>

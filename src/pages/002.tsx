@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
+import Paper from '../components/Paper'
 import { shuffle } from '../utils'
 
 const DEFAULT_ITEMS = Array(50).fill(0).map((_, index) => ({ id: String(index) }))
@@ -57,12 +58,14 @@ export default function $002() {
   }, [items])
 
   return (
-    <div className="w-[400px] h-[400px]">
-      <button className="btn-primary mb-4" onClick={update}>update</button>
-      <button className="btn-gray mb-4 ml-4" onClick={reset}>rest</button>
-      <div className="continer h-full w-full flex flex-wrap" ref={container}>
-        {items.map((_, index) => <div id={_.id} key={index} className="w-8 h-8 bg-slate-400 text-center mx-2 leading-8">{_.id}</div>)}
+    <Paper>
+      <div className="w-[400px] h-[400px]">
+        <button className="btn-primary mb-4" onClick={update}>update</button>
+        <button className="btn-gray mb-4 ml-4" onClick={reset}>rest</button>
+        <div className="continer h-full w-full flex flex-wrap" ref={container}>
+          {items.map((_, index) => <div id={_.id} key={index} className="w-8 h-8 bg-slate-400 text-center mx-2 leading-8">{_.id}</div>)}
+        </div>
       </div>
-    </div>
+    </Paper>
   )
 }

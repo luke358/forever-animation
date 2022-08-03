@@ -8,6 +8,10 @@ export const info = [
     name: 'FLIP',
     date: '8/03',
   },
+  {
+    name: 'Scope',
+    date: '8/04',
+  },
 ]
 
 export const works = info.map((info, idx) => {

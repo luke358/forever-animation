@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import { Ball } from '../canvas/Ball'
 import { getOffset, rp } from '../canvas/utils'
+import Paper from '../components/Paper'
 import { initCanvas } from '../utils'
 
 export default function $001() {
@@ -96,9 +97,11 @@ export default function $001() {
   }, [])
 
   return (
-    <div className="w-full h-full flex justify-center items-center">
-      {/* <canvas ref={ctxRef} className='border-2 border-grey' id='canvas'>001</canvas> */}
-      <canvas className="border-2 border-grey" id="canvas">001</canvas>
-    </div>
+    <Paper>
+      <div className="w-full h-full flex justify-center items-center">
+        {/* <canvas ref={ctxRef} className='border-2 border-grey' id='canvas'>001</canvas> */}
+        <canvas className="border-2 border-grey" id="canvas">001</canvas>
+      </div>
+    </Paper>
   )
 }
