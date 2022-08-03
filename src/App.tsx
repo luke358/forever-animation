@@ -8,7 +8,7 @@ function App() {
   return (
     <Paper>
       <div>
-        <Suspense fallback={<p className="bg-gray-300">Loading...</p>}>
+        <Suspense fallback={<p className="text-gray-400">Loading...</p>}>
           {useRoutes(routes)}
           <Outlet />
         </Suspense>
