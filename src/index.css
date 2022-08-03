@@ -10,6 +10,10 @@ html, body, #root{
   justify-content: center;
 }
 
+.index-page {
+  @apply w-[400px] h-[400px]
+}
+
 
 @layer components {
   .btn-primary {

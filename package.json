@@ -14,10 +14,13 @@
     "react-router-dom": "^6.3.0"
   },
   "devDependencies": {
+    "@iconify/react": "^3.2.2",
+    "@luke358/eslint-config": "^0.1.1",
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^2.0.0",
     "autoprefixer": "^10.4.8",
+    "eslint": "^8.21.0",
     "postcss": "^8.4.14",
     "tailwindcss": "^3.1.7",
     "typescript": "^4.6.4",
