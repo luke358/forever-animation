@@ -9,6 +9,7 @@ specifiers:
   ahooks: ^3.6.2
   autoprefixer: ^10.4.8
   classnames: ^2.3.1
+  css-doodle: ^0.29.0
   eslint: ^8.21.0
   postcss: ^8.4.14
   react: ^18.2.0
@@ -22,6 +23,7 @@ specifiers:
 
 dependencies:
   ahooks: 3.6.2_react@18.2.0
+  css-doodle: 0.29.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-router-dom: 6.3.0_biqbaboplfbrettd7655fr4n2y
@@ -1047,6 +1049,10 @@ packages:
       shebang-command: 2.0.0
       which: 2.0.2
     dev: true
+
+  /css-doodle/0.29.0:
+    resolution: {integrity: sha512-nNW8TSfKecicxIBLCyuIFtXel31ITjG4QLzRn9a1BcnfqKuYqNj7KSxLEERLtp+rAgoy4WbqlDkkeAJD8yYi0g==}
+    dev: false
 
   /cssesc/3.0.0:
     resolution: {integrity: sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==}

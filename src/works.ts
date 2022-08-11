@@ -16,6 +16,10 @@ export const info = [
     name: 'Square',
     date: '8/05',
   },
+  {
+    name: 'css-doodle',
+    date: '8/11',
+  },
 ]
 
 export const works = info.map((info, idx) => {

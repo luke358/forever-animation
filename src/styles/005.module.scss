@@ -1,0 +1,9 @@
+@keyframes change {
+  10% {
+      filter: hue-rotate(360deg);
+  }
+}
+
+.wraper {
+  animation: change 10s linear infinite;
+}
