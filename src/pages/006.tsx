@@ -2,7 +2,7 @@ import { useRef, useState } from 'react'
 import Paper from '../components/Paper'
 import { playCheckAnimation } from '../utils'
 
-export default function $001() {
+export default function $006() {
   const [checked, setChecked] = useState(false)
   const ref = useRef<HTMLDivElement>(null)
 

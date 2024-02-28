@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react'
 import Paper from '../components/Paper'
-import styles from '../styles/005.module.scss'
+import '../styles/005.scss'
 import Doodle from '../components/Doodle'
 const RULES = [
   `:doodle {
@@ -58,7 +58,7 @@ export default function $005() {
   }
   return (
     <Paper >
-      <div className={styles.wraper} onClick={changeRule}>
+      <div className='wrapper' onClick={changeRule}>
         <Doodle ref={doodleRef} rule={RULES[rule]} />
       </div>
     </Paper>

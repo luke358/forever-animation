@@ -1,0 +1,19 @@
+.paper7 {
+  .underline-animation {
+    --primary: 240 5.9% 10%;
+    --primary-foreground: 0 0% 98%;
+
+    @apply relative bg-gradient-to-r from-primary to-primary-foreground bg-no-repeat pb-0.5;
+    // @apply relative bg-gradient-to-r from-primary bg-no-repeat pb-0.5;
+    background-position: bottom left;
+    background-size: 0% 2px;
+    transition:
+      background-size 300ms ease-out,
+      background-position 0s 300ms;
+
+    &:hover {
+      background-position: bottom right;
+      background-size: 100% 2px;
+    }
+  }
+}
